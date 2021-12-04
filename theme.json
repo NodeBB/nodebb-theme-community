@@ -1,0 +1,6 @@
+{
+    "id": "nodebb-theme-community",
+    "name": "Community theme for NodeBB",
+    "description": "The Persona-variant theme for the forum at https://community.nodebb.org",
+    "url": "https://github.com/nodebb/nodebb-theme-community"
+}
