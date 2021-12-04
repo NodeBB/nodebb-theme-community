@@ -21,7 +21,7 @@
 	{{{end}}}
 </head>
 
-<body class="{bodyClass} skin-{{{if bootswatchSkin}}}{bootswatchSkin}{{{else}}}noskin{{{end}}}">
+<body class="{bodyClass} skin-{{{if bootswatchSkin}}}{bootswatchSkin}{{{else}}}noskin{{{end}}} elementor-kit-5">
 	<nav id="menu" class="slideout-menu hidden">
 		<!-- IMPORT partials/slideout-menu.tpl -->
 	</nav>
@@ -31,6 +31,7 @@
 
 	<main id="panel" class="slideout-panel">
 		<nav class="navbar navbar-default navbar-fixed-top header" id="header-menu" component="navbar">
+			{globalNav}
 			<div class="container">
 				<!-- IMPORT partials/menu.tpl -->
 			</div>

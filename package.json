@@ -1,32 +1,34 @@
 {
-  "name": "@nodebb/nodebb-theme-community",
-  "version": "0.1.0",
-  "description": "The Persona-variant theme for the forum at https://community.nodebb.org",
-  "main": "lib/theme.js",
-  "keywords": [],
-  "license": "MIT",
-  "husky": {
-      "hooks": {
-          "pre-commit": "npx lint-staged",
-          "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS"
-      }
-  },
-  "lint-staged": {
-      "*.js": [
-          "eslint --fix",
-          "git add"
-      ]
-  },
-  "dependencies": {
-    "bent": "^7.3.12"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-angular": "11.0.0",
-    "eslint": "7.18.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-plugin-import": "2.22.1",
-    "husky": "5.0.9",
-    "lint-staged": "10.5.4"
-  }
+    "name": "@nodebb/nodebb-theme-community",
+    "version": "0.1.0",
+    "description": "The Persona-variant theme for the forum at https://community.nodebb.org",
+    "main": "lib/theme.js",
+    "keywords": [],
+    "license": "MIT",
+    "husky": {
+        "hooks": {
+            "pre-commit": "npx lint-staged",
+            "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "dependencies": {
+        "bent": "^7.3.12",
+        "jsdom": "^19.0.0",
+        "node-fetch": "^2"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "11.0.0",
+        "@commitlint/config-angular": "11.0.0",
+        "eslint": "7.18.0",
+        "eslint-config-airbnb-base": "14.2.1",
+        "eslint-plugin-import": "2.22.1",
+        "husky": "5.0.9",
+        "lint-staged": "10.5.4"
+    }
 }

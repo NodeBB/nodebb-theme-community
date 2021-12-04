@@ -1,9 +1,8 @@
 {
 	"id": "nodebb-theme-community",
 	"hooks": [
-		{
-			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
-		}
+		{ "hook": "filter:middleware.renderHeader", "method": "renderHeader" },
+		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" }
 	],
 	"scripts": [
 		"public/client.js",
