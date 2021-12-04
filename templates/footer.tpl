@@ -1,4 +1,6 @@
 		</div><!-- /.container#content -->
+
+		{globalFooter}
 	</main>
 	<!-- IF !isSpider -->
 	<div component="toaster/tray" class="alert-window">

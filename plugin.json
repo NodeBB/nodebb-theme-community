@@ -2,6 +2,7 @@
 	"id": "nodebb-theme-community",
 	"hooks": [
 		{ "hook": "filter:middleware.renderHeader", "method": "renderHeader" },
+		{ "hook": "filter:middleware.renderFooter", "method": "renderFooter" },
 		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" }
 	],
 	"scripts": [
