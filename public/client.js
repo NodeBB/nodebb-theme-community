@@ -11,7 +11,13 @@ require(['hooks'], (hooks) => {
 				dropdownEl.style.left = `-${dropdownRect.x}px`;
 				dropdownEl.style.top = `${dropdownRect.y + 10}px`;
 				dropdownEl.style.width = '100vw';
-			})
+			});
+
+			// Remap main logo to go to `/`
+			const logoEl = document.querySelector('[data-id="0c93321"] a');
+			if (logoEl) {
+				logoEl.href = config.relative_path + '/';
+			}
 		} catch (e) {
 			console.log('[theme/community] Unable to find mobile menu toggle/dropdown');
 		}
