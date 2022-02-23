@@ -12,7 +12,7 @@
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js",
-		"persona/quickreply.js": "../../nodebb-theme-persona/public/modules/quickreply.js",
+		"persona/quickreply.js": "../../nodebb-theme-persona/public/modules/quickreply.js"
 	},
 	"templates": "templates"
 }
