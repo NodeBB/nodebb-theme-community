@@ -1,6 +1,6 @@
 {
     "name": "@nodebb/nodebb-theme-community",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "The Persona-variant theme for the forum at https://community.nodebb.org",
     "main": "lib/theme.js",
     "keywords": [],
