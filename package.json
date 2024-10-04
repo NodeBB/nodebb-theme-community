@@ -20,7 +20,7 @@
     "dependencies": {
         "bent": "^7.3.12",
         "jsdom": "^19.0.0",
-        "node-fetch": "^2"
+        "node-fetch": "^3.0.0"
     },
     "devDependencies": {
         "@commitlint/cli": "19.5.0",
